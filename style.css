@@ -1,0 +1,113 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #f8f3ee;
+ font-family: "Poppins", sans-serif;
+ line-height : 1.6;
+}
+
+/* STYLE TEXT */
+h1 {
+  color: #3b2520;
+  font-family: "Playfair Display", serif; 
+  font-size: 3rem; 
+  margin: 30px 0 25px;
+}
+
+/* STYLE IMAGES */
+.sharing{
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 0;
+  display: block;
+  margin: 0;
+}
+
+.united{
+   width: 100%;
+  height: 300px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.square-image{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.last-image{
+   width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+/* STYLE NAV BAR */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #4A3028;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  display: block;
+  color: #FFF8F3;
+  text-decoration: none;
+  font-size: 1.05em;
+  font-weight: 600;
+  padding: 1em 1.3em;
+  transition: 0.2s ease;
+  
+nav a:hover { 
+  color: #9a5f4a; 
+}
+
+/* STYLE BUTTONS */
+button{
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  color: #FFF8F3;
+  background-color: #6F4033;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: 0.2s ease;;
+}  
+/* Hover */
+
+button:hover {
+  background-color: #9A6754;
+  transform: translateY(-2px);
+}
+
+/* When the button is clicked */
+
+button:active {
+  transform: translateY(0);
+}
+
+/* Share My Story */
+
+#submit-button {
+  margin-top: 15px;
+}
+
+/* Show Me Stories */
+
+#show-stories {
+  margin-top: 15px;
+}
