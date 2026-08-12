@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Share Your Story | Black & Beyond</title>
+
+    <link rel="stylesheet" href="style.css">
+  
+  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+    <ul>
+     <li> <a href="index.html">Home</a></li>
+     <li> <a href="discover.html">Stories</a></li> 
+     <li> <a href="Share.html">Share your Stories</a></li>
+    </ul>
+    </nav>
+    <h1>Your Story Matters.</h1>
+    <img class="sharing" src="assets/support.jpg" alt = "A picture of two black women talking and laughing with each others on a couch"/>
+    </header>
+
+    <main>
+
+    <div>
+
+      <p>
+      You don't have to tell your whole story.
+      Share only what you're comfortable sharing.
+      Your experience may help another woman feel less alone.
+      </p>
+
+      </div>
+
+      <div class="personalize">
+
+      <h2>Make Your Story Your Own</h2>
+
+    <p>
+    Tell us what your story is about. You can choose more than one.
+    </p>
+
+
+    <h3>What would you like to share?</h3>
+
+    <div class="topicOptions">
+
+    <label class="topic-card">
+    <input type="checkbox" name="topic" value="immigration">
+    <span>🌎</span>
+    <strong>Immigration</strong>
+    </label>
+
+
+    <label class="topic-card">
+  <input type="checkbox" name="topic" value="identity">
+    <span>🖤</span>
+    <strong>Identity</strong>
+  </label>
+
+
+  <label class="topic-card">
+  <input type="checkbox" name="topic" value="colorism">
+  <span>🎨</span>
+  <strong>Colorism</strong>
+  </label>
+
+
+  <label class="topic-card">
+  <input type="checkbox" name="topic" value="womanhood">
+  <span>👩🏾</span>
+  <strong>Womanhood</strong>
+  </label>
+
+
+  <label class="topic-card">
+  <input type="checkbox" name="topic" value="belonging">
+  <span>🏠</span>
+  <strong>Belonging</strong>
+  </label>
+
+
+  <label class="topic-card">
+  <input type="checkbox" name="topic" value="relationships">
+  <span>💕</span>
+  <strong>Relationships</strong>
+  </label>
+
+  </div>
+
+  <div class="identity">
+
+  <h2>What parts of your identity would you like to share?</h2>
+
+  <p>
+    You can choose whichever option feels right for you.
+  </p>
+
+  <div class="identity-options">
+
+  <label>
+  <input type="radio" name="identity" value="black-woman">
+   Black woman
+  </label>
+
+  <label>
+  <input type="radio" name="identity" value="black-immigrant">
+  Black immigrant
+  </label>
+
+  <label>
+  <input type="radio" name="identity" value="both">
+  Black woman & immigrant
+  </label>
+
+  <label>
+  <input type="radio" name="identity" value="prefer-not">
+  Prefer not to say
+  </label>
+
+  </div>
+
+  </div>
+
+  <div class="story">
+
+  <h2>Tell Us Your Story</h2>
+
+  <p>
+    Start wherever feels right. You can use one of our prompts
+    or simply write what you want to share.
+  </p>
+
+  <div class="story-prompts">
+
+  <p><strong>You could talk about...</strong></p>
+
+  <ul>
+  <li>What experience has shaped you?</li>
+  <li>Have you ever felt like you didn't belong?</li>
+  <li>What is something you wish someone understood about you?</li>
+  <li>What helped you through a difficult experience?</li>
+  <li>What would you tell another woman going through something similar?</li>
+  </ul>
+
+  </div>
+
+  <label for="story-title">
+  <strong>Give your story a title</strong>
+  </label>
+
+  <input
+  type="text"
+  id="story-title"
+  name="story-title"
+  placeholder="Example: Finding Myself Between Two Cultures"
+  >
+
+  <label for="myStory">
+  <strong>Your story</strong>
+  </label>
+
+  <textarea
+  id="story"
+  name="story"
+  rows="12"
+  placeholder="Write your story here..."
+  ></textarea>
+
+  <div class="privacy-section">
+
+  <h2>How would you like to be identified?</h2>
+
+  <p>
+    You are in control of what name appears with your story.
+  </p>
+
+
+  <div class="name-options">
+
+  <label>
+  <input type="radio" name="display-name" value="full-name">
+    My name
+  </label>
+
+  <label>
+  <input type="radio" name="display-name" value="first-name">
+    First name only
+  </label>
+
+  <label>
+  <input
+  type="radio"
+  name="display-name"
+  value="anonymous"
+  checked
+  >
+  Anonymous
+  </label>
+
+  <label>
+  <input type="radio" name="display-name" value="custom">
+  Custom name
+  </label>
+
+  </div>
+
+  <label for="display-name">
+  <strong>Name to display (optional)</strong>
+  </label>
+
+  <input
+  type="text"
+  id="display-name"
+  name="display-name"
+  placeholder="Enter the name you want displayed"
+  >
+
+  </div>
+
+  <div class="privacy-notice">
+
+  <h3>Before you share 🖤</h3>
+
+  <p>
+  Share only what you are comfortable making public.
+  Avoid including private information such as your address,
+  phone number, passwords, immigration case numbers, or other
+  identifying information.
+  </p>
+
+  </div>
+
+  <div class="submit-section">
+
+  <h2>Ready to Share?</h2>
+
+  <p>
+    Your story could help someone else feel seen and understood.
+  </p>
+
+  <button type="submit" id="submit-button">
+     Share My Story
+  </button>
+
+  </div>
+
+  </main>
+
+
+  <footer>
+
+  <div class="footer">
+
+  <h2>Black & Beyond</h2>
+
+  <p>
+    Different stories. Shared humanity.
+  </p>
+
+  <div class="footer-links">
+
+    <a href="index.html">Home</a>
+    <a href="discover.html">Stories</a>
+    <a href="Share.html">Share Your Story</a>
+
+  </div>
+
+  <p class="copyright">
+    © 2026 Black & Beyond
+  </p>
+
+  </div>
+
+  </footer>
+
+
+</body>
+
+</html>
